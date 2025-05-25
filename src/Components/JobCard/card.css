@@ -1,0 +1,89 @@
+.card-wrapper {
+  height: 170px;
+  background: white;
+  color: rgb(31, 30, 30);
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px;
+  transition: all 0.5s ease !important;
+}
+.wrapper {
+  transition: all 0.4s ease !important;
+}
+.card-wrapper-expended {
+  height: auto;
+  min-height: 250px;
+  padding-bottom: 15px;
+  background: white;
+  color: rgb(31, 30, 30);
+  margin: 10px;
+  margin-top: 30px;
+  padding: 15px;
+}
+.card-wrapper:hover {
+  -webkit-box-shadow: 0px 14px 34px -18px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 14px 34px -18px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 14px 34px -18px rgba(0, 0, 0, 0.5);
+}
+
+.image-wrapper {
+  width: 20%;
+  padding: 15px;
+}
+.logo-wrapper {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.description-wrapper {
+  width: 80%;
+}
+.description-title {
+  transition: all 0.5s ease !important;
+  text-decoration: none;
+}
+.description-title:hover {
+  cursor: pointer;
+  color: rgb(237, 112, 2) !important;
+}
+.description-informations {
+  width: 100%;
+  padding-top: 10px;
+  transition: all 0.5s ease !important;
+}
+.characteristic {
+  margin-right: 25px;
+  padding: 5px;
+  background: rgb(238, 238, 238);
+  border-radius: 5px;
+  height: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-edit {
+  height: 30px;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 10px;
+}
+.hidden {
+  display: none;
+}
+.shown {
+  display: block;
+}
+
+.icons {
+  cursor: pointer;
+}
